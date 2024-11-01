@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avto ehtiyot qismlar firmasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1em;
+        }
+        header img {
+            height: 80px; /* Logotip o'lchami */
+        }
+        nav {
+            text-align: center;
+            margin: 10px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .product img {
+            max-width: 40%;
+            height: auto;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="./photo_2024-11-01_09-42-49.jpg" alt="Firmamiz Logotipi"> <!-- Logotipni yuklab yoki manzilini kiriting -->
+    <h1>Avto ehtiyot qismlar firmasi</h1>
+</header>
+
+<nav>
+    <a href="#home">Bosh sahifa</a>
+    <a href="#products">Mahsulotlar</a>
+    <a href="#contact">Aloqa</a>
+</nav>
+
+<div class="container">
+    <!-- Bosh sahifa bo'limi -->
+    <section id="home">
+        <h2>Biz haqimizda</h2>
+        <p>Biz sizga sifatli va arzon avtomobil ehtiyot qismlarini taklif etamiz. Barcha mashhur brendlar uchun mos keluvchi mahsulotlar mavjud.</p>
+    </section>
+
+    <!-- Mahsulotlar bo'limi -->
+    <section id="products">
+        <h2>Mahsulotlarimiz</h2>
+        
+        <div class="product">
+            <img src="./photo_2024-11-01_09-55-51.jpg" alt="Tormoz diski"> <!-- Rasmlarni yuklab qo'ying yoki URL kiriting -->
+            <h3>Tormoz disklari</h3>
+            <p>Narxi: $50</p>
+        </div>
+
+        <div class="product">
+            <img src="./photo_2024-11-01_09-44-17.jpg" alt="Motor moyi">
+            <h3>Motor moyi</h3>
+            <p>Narxi: $30</p>
+        </div>
+
+        <div class="product">
+            <img src="./photo_2024-11-01_09-45-37.jpg" alt="Akkumulyator">
+            <h3>Akkumulyator</h3>
+            <p>Narxi: $80</p>
+        </div>
+    </section>
+
+    <!-- Bog'lanish bo'limi -->
+    <section id="contact">
+        <h2>Bog'lanish</h2>
+        <form>
+            <label for="name">Ismingiz:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email manzilingiz:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Xabar:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Yuborish</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Avto ehtiyot qismlar firmasi. Barcha huquqlar himoyalangan.</p>
+</footer>
+
+</body>
+</html>
